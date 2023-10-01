@@ -1,34 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Site de Notícias </title>
-    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Site Noticias</title>
 </head>
 <body>
-    <header>
-        <h1>Projeto Desenvolvimento Web: Site de Notícias</h1>
-    </header>
-    <ol>
-    <main>
-        <section>
-            <h2>Nome dos Integrantes: </h2>
-            <ol>
-                <li>  Larissa Goraieb - 2023 0237 6681
-                <li>  Felipe Carvalho dos Santos - 2023 0238 0295
-                <li>  Adolfo Bogo Peres - 2023 0295 4375
-                <li>  Gustavo Henrique da Silva - 2023 0237 8821
-                <li> Elaine Rodrigues Mariano - 2023 0372 3083
-        </section>
-        
-        <section>
-            <h2>Descrição do Projeto </h2>
-            <p>Este projeto terá a finalidade de ser um site de notícias e será desenvolvido durante as aulas de desenvolvimento web.
-        <section>
-          	<h2>Proposta Design </h2>
-          	<img src="Proposta_Design.jpg" alt="Proposta de Design do site de notícias feito no Figma.">
-		</section>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/undraw_newsletter_re_wrob.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="Site noticias/login.html">Entrar</a></button>
+                    </div>
+                </div>
 
-                
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="fistname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu Sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu Email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Confirme sua senha</label>
+                        <input id="password" type="password" name="Confirmpassword" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Outros</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="Site noticias/menu.html">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>    
+</body>
+</html>
