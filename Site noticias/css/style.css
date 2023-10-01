@@ -168,19 +168,19 @@ body {
     color: #fff;
 }
 
-@media screen and (max-widht: 1330px){
+@media screen and (max-width: 1330px){
     .form-image{
-        display: none;
+        display: 100;
     }
     .container{
-        width: 50%;
+        width: 100%;
     }
     .form{
         width: 100%;
     }
 }
 
-@media screen and (max-widht: 1064px){
+@media screen and (max-width: 1064px){
     .container{
         width: 90%;
         height: auto;
